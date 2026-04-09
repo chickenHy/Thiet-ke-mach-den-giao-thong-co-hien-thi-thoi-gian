@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vcounter_32bit_ud
+Z0 !s110 1774422752
+!i10b 1
+!s100 =fWnVJ1R]0jb4<9U>0W9B2
+IgT1lRJ;kO7_kNmOD[OoL_1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/VSLI/project/project  giua ki/B1_counter32bit
+w1774422552
+8D:/VSLI/project/project  giua ki/B1_counter32bit/counter_32bit.v
+FD:/VSLI/project/project  giua ki/B1_counter32bit/counter_32bit.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1774422752.000000
+!s107 D:/VSLI/project/project  giua ki/B1_counter32bit/counter_32bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VSLI/project/project  giua ki/B1_counter32bit/counter_32bit.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtb_32bit
+R0
+!i10b 1
+!s100 il^C7THjQEUHEQWW[@:>[3
+ImojQdN`ioY03nXI0X]@8<3
+R1
+R2
+w1774422734
+8D:/VSLI/project/project  giua ki/B1_counter32bit/techbenh.v
+FD:/VSLI/project/project  giua ki/B1_counter32bit/techbenh.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/VSLI/project/project  giua ki/B1_counter32bit/techbenh.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/VSLI/project/project  giua ki/B1_counter32bit/techbenh.v|
+!i113 1
+R5
+R6
