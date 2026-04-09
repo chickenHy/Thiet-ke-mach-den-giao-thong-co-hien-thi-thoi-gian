@@ -1,0 +1,59 @@
+
+
+//===========================================================================================================================================
+// File Name: counter_32bit.v
+// Project Name: Thiet ke bo dem 32 bit co tin hieu dieu khien.
+// Author: Le Chi Huy - 24119134 - nganh Cong Nghe Ky thuat may tinh - Truong Dai hoc Cong Nghe Ky Thuat TP.HCM
+// Date: 09 - 04 - 2026
+// Version: 1.0
+// Description: Su dung mo hinh thiet ke muc RTL( Register Transfer Level ) de tao bo dem 32 bit co tin hieu dieu khien.
+//              Ho tro tin hieu ud dieu khien mode sdem (ud = 1: dem len, ud = 1: dem xuong)
+//              Tin hieu reset (rs) hoat dong tich cuc muc thap (rs = 0: thiet lap lai ngo ra Q ve 0, rs = 1: bo dem hoat dong binh thuong)
+//              Tin hieu E cho phep bo dem hoat dong (E = 1: bo dem hoat dong, E = 0: bo dem ngung hoat dong)
+//===========================================================================================================================================
+
+
+module counter_32bit_ud(
+//--------------ngo ra----------------//
+	output reg [31:0] Q,
+
+//--------------clock----------------//
+	input wire clk
+
+//-------------tin hieu dieu khien----------------//
+	input wire rs, ud, E
+	// rs: reset, ud: up/down, E: enable
+	// rs = 0: thiet lap lai Q ve 0, rs = 1: bo dem hoat dong binh thuong
+	// ud = 1: dem len, ud = 0: dem xuong
+	// E = 1: cho phep bo dem hoat dong, E = 0: khong bo dem ngung hoat dong
+);
+
+//------------------------------khoi tao gia tri ban dau cho bo dem------------------------------//
+initial begin
+	Q <= 32'b0; // Ngo ra Q duoc khoi tao ve 0 khi bo dem duoc kich hoat
+end
+//----------------------------------------------------------------------------------------------//
+//1. TIN HIEU CHO PHEP HOAT DONG BO DEM (E) //
+//2. TIN HIEU RESET (RS) //
+//3. TIN HIEU DIEU KHIEN MODE DEM LEN/DEM XUONG (UD) //
+//----------------------------------------------------------------------------------------------//
+always @(posedge clk) begin
+	//1. TIN HIEU CHO PHEP HOAT DONG BO DEM (E) //
+	if(E) begin
+		//2. TIN HIEU RESET (RS) //
+		if (rs == 1'b0) begin // Thiet lap lai Q ve 0 khi rs = 0
+			Q <= 32'b0;
+		end
+		else begin // Hoat dong binh thuong khi rs = 1
+			//3. TIN HIEU DIEU KHIEN MODE DEM LEN/DEM XUONG (UD) //
+			if(ud) begin // Dem len khi ud = 1
+				Q <= Q + 1;
+			end
+			else Q <= Q - 1; // Dem xuong khi ud = 0
+		end
+	end
+end
+endmodule
+
+		
+	
