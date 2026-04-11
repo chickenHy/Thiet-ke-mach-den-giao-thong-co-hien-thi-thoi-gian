@@ -27,7 +27,6 @@ module TrafficLight_FSM (
 
 parameter [4:0] Time_R = 15, Time_G = 15, Time_Y = 5, Time_YR = 5, Time_Blink = 1; // Thoi gian cho moi trang thai (don vi: giay)
 parameter [4:0] TR = 20, TG = 15, TY = 5;
-
 parameter [2:0] S1 = 3'b000, S2 = 3'b001, S3 = 3'b010, S4 = 3'b011; // Trang thai hoat dong binh thuong cua den giao thong
 parameter [2:0] S5 = 3'b100, S6 = 3'b101; // Trang thai nhap nhay den vang
 
@@ -162,7 +161,6 @@ end
 always @(*) begin
         DonVi1 = TRL1 % 10; // Hien thi hang don vi cho cot den 1 tren led 7 doan
         Chuc1  = TRL1 / 10; // Hien thi hang chuc cot den 1 tren led 7 doan
-
         DonVi2 = TRL2 % 10; // Hien thi hang don vi cho cot den 2 tren led 7 doan
         Chuc2  = TRL2 / 10; // Hien thi hang chuc cho cot den 2 tren led 7 doan
 

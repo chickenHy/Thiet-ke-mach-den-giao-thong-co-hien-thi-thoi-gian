@@ -9,26 +9,26 @@ z2
 cModel Technology
 dC:/intelFPGA/18.1
 vDecoder_Led7Seg_Anode
-Z0 !s110 1775879401
+Z0 !s110 1775902427
 !i10b 1
-!s100 GUhPPik4m`0IQ^J@4hBUf2
-IhNmE]l6@mXocTMDQ9VI7E2
+!s100 J1B`RcAM@iI=9eX]eOnBJ3
+IR<`mPILjMcUVFgSf[X5AH0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dD:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight
-w1775876880
+w1775902407
 8D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/Decoder_led7seg_anode.v
 FD:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/Decoder_led7seg_anode.v
-L0 14
-Z3 OV;L;10.5b;63
+Z3 L0 12
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1775879401.000000
+Z5 !s108 1775902427.000000
 !s107 D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/Decoder_led7seg_anode.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/Decoder_led7seg_anode.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
 n@decoder_@led7@seg_@anode
 vtb_TrafficLight
 R0
@@ -41,36 +41,36 @@ w1775874716
 8D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/tb_TrafficLight.v
 FD:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/tb_TrafficLight.v
 L0 2
-R3
+R4
 r1
 !s85 0
 31
-R4
+R5
 !s107 D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/tb_TrafficLight.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/tb_TrafficLight.v|
 !i113 1
-R5
 R6
+R7
 ntb_@traffic@light
 vTrafficLight_FSM
-R0
+!s110 1775902428
 !i10b 1
 !s100 HI3<>Lz9NGB<k_RebVJ5S1
 I4`;5J8A;o;jmgjNcjAO151
 R1
 R2
-w1775877895
+w1775902264
 8D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/TrafficLight_FSM.v
 FD:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/TrafficLight_FSM.v
-L0 12
 R3
+R4
 r1
 !s85 0
 31
-R4
+!s108 1775902428.000000
 !s107 D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/TrafficLight_FSM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B2_TrafficLight/TrafficLight_FSM.v|
 !i113 1
-R5
 R6
+R7
 n@traffic@light_@f@s@m

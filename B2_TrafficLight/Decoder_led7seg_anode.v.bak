@@ -37,7 +37,7 @@ always @(*) begin
        'd5: Q = 7'b0100100; // (a,c,d,f,g: sang; b,e: tat)
        'd6: Q = 7'b0100000; // (a,c,d,e,f,g: sang; b: tat)
        'd7: Q = 7'b0001111; // (a,b,c: sang; d,e,f,g: tat)
-       'd8: Q = 7'b0000000; // (a,b,c,d,e,f,g: sang)
+       'd8: Q = 7'b0000000; // (a,b,c,d,e,f,g: sang; h: tat)
        'd9: Q = 7'b0000100; // (a,b,c,d,f,g: sang; e: tat)
        default: Q = 7'b1111111; // Tat tat ca khi o trang thai nhap nhay den vang
     endcase
