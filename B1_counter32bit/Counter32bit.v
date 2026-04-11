@@ -2,8 +2,6 @@
 //===========================================================================================================================================
 // File Name: Counter32bit.v
 // Project Name: Thiet ke bo dem 32 bit co tin hieu dieu khien.
-// Author: Le Chi Huy - 24119134 - nganh Cong Nghe Ky thuat may tinh - Truong Dai hoc Cong Nghe Ky Thuat TP.HCM
-// Date: 09 - 04 - 2026
 // Version: 1.0
 // Description: Su dung mo hinh thiet ke muc RTL( Register Transfer Level ) de tao bo dem 32 bit co tin hieu dieu khien.
 //              Ho tro tin hieu ud dieu khien mode sdem (ud = 1: dem len, ud = 1: dem xuong)
