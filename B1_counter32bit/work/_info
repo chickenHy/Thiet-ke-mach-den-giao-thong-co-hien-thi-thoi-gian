@@ -9,21 +9,21 @@ z2
 cModel Technology
 dC:/intelFPGA/18.1
 vcounter_32bit_ud
-Z0 !s110 1775879847
+Z0 !s110 1775881681
 !i10b 1
-!s100 QcFck_3cm:k7=HhlDGSJU2
-I1i0a7oR`ADJn]Zmj>jkeC1
+!s100 jjcG<jzXG?45jTH0W8^aA0
+IFQFL`[9U<hW3Tfk@;K8@I0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dD:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit
-w1775879569
+w1775881568
 8D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/Counter32bit.v
 FD:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/Counter32bit.v
-L0 16
+L0 15
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1775879847.000000
+Z4 !s108 1775881681.000000
 !s107 D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/Counter32bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/Counter32bit.v|
 !i113 1

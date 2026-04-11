@@ -1,11 +1,4 @@
-D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/Counter32bit.v {1 {vlog -work work -stats=none D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/Counter32bit.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module counter_32bit_ud
-
-Top level modules:
-	counter_32bit_ud
-
-} {} {}} D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/techbenh.v {1 {vlog -work work -stats=none D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/techbenh.v
+D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/techbenh.v {1 {vlog -work work -stats=none D:/VSLI/project/project_gk/Thiet-ke-he-thong-vi-mach-so/B1_counter32bit/techbenh.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_32bit
 
