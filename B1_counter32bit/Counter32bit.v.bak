@@ -18,7 +18,7 @@ module counter_32bit_ud(
 	output reg [31:0] Q,
 
 //--------------clock----------------//
-	input wire clk,
+	input wire clk
 
 //-------------tin hieu dieu khien----------------//
 	input wire rs, ud, E
